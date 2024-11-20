@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### Example Parts
 
-## Getting Started
+- **0x1000** `C:\Users\xxx\AppData\Local\Temp\arduino\sketches\482D03ABA6D754380D40B7C37D7A7EA9/hellohello.ino.bootloader.bin`
+- **0x8000** `C:\Users\xxx\AppData\Local\Temp\arduino\sketches\482D03ABA6D754380D40B7C37D7A7EA9/hellohello.ino.partitions.bin`
+- **0xe000** `C:\Users\xxx\AppData\Local\Arduino15\packages\esp32\hardware\esp32\3.0.7/tools/partitions/boot_app0.bin`
+- **0x10000** `C:\Users\xxx\AppData\Local\Temp\arduino\sketches\482D03ABA6D754380D40B7C37D7A7EA9/hellohello.ino.bin`
 
-First, run the development server:
+### References
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔗 https://github.com/espressif/esptool-js
+- 🔗 https://github.com/witnessmenow/ESP-Web-Tools-Tutorial
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🔗 https://espressif.github.io/esptool-js/

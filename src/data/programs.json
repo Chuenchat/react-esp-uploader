@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Hello World",
+    "parts": [
+      {
+        "address": "0x1000",
+        "path": "examples/helloworld/SerialHelloWorld.ino.bootloader.bin"
+      },
+      {
+        "address": "0x8000",
+        "path": "examples/helloworld/SerialHelloWorld.ino.partitions.bin"
+      },
+      {
+        "address": "0xe000",
+        "path": "examples/helloworld/boot_app0.bin"
+      },
+      {
+        "address": "0x10000",
+        "path": "examples/helloworld/SerialHelloWorld.ino.bin"
+      }
+    ]
+  },
+  {
+    "name": "Hello Hello",
+    "parts": [
+      {
+        "address": "0x1000",
+        "path": "examples/hellohello/hellohello.ino.bootloader.bin"
+      },
+      {
+        "address": "0x8000",
+        "path": "examples/hellohello/hellohello.ino.partitions.bin"
+      },
+      {
+        "address": "0xe000",
+        "path": "examples/hellohello/boot_app0.bin"
+      },
+      {
+        "address": "0x10000",
+        "path": "examples/hellohello/hellohello.ino.bin"
+      }
+    ]
+  },
+  {
+    "name": "Blink",
+    "parts": [
+      {
+        "address": "0x1000",
+        "path": "examples/blink/blink.ino.bootloader.bin"
+      },
+      {
+        "address": "0x8000",
+        "path": "examples/blink/blink.ino.partitions.bin"
+      },
+      {
+        "address": "0xe000",
+        "path": "examples/blink/boot_app0.bin"
+      },
+      {
+        "address": "0x10000",
+        "path": "examples/blink/blink.ino.bin"
+      }
+    ]
+  }
+]
